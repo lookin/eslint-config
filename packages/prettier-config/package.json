@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "@lookin/prettier-config",
+  "//version": "Follow CalVer specs at https://calver.org/",
+  "version": "2023.7.22",
+  "description": "Prettier Shareable Config used by Lookin",
+  "keywords": [
+    "prettier",
+    "lookin"
+  ],
+  "homepage": "https://github.com/lookin/web-configs#readme",
+  "bugs": "https://github.com/lookin/web-configs/issues",
+  "license": "MIT",
+  "author": "Anthony Lukin <anthony@lukin.dev> (https://lukin.dev)",
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lookin/web-configs.git",
+    "directory": "packages/prettier-config"
+  },
+  "dependencies": {
+    "prettier-plugin-tailwindcss": "^0.4.1"
+  },
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  }
+}

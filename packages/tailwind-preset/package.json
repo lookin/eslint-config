@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "@lookin/tailwind-preset",
+  "//version": "Follow CalVer specs at https://calver.org/",
+  "version": "2023.7.22",
+  "description": "Tailwind CSS Shareable Preset used by Lookin",
+  "keywords": [
+    "tailwindcss",
+    "lookin"
+  ],
+  "homepage": "https://github.com/lookin/web-configs#readme",
+  "bugs": "https://github.com/lookin/web-configs/issues",
+  "license": "MIT",
+  "author": "Anthony Lukin <anthony@lukin.dev> (https://lukin.dev)",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lookin/web-configs.git",
+    "directory": "packages/tailwind-preset"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "@tailwindcss/typography": "^0.5.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.1.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "devDependencies": {
+    "@lookin/prettier-config": "workspace:*",
+    "eslint-config-lookin": "workspace:*"
+  },
+  "private": true
+}
